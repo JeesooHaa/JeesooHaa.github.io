@@ -5,9 +5,14 @@ const Footer = () => {
     <div className="Footer">
       <p></p>
       <p></p>
-      <p className="footer-right">contact</p>
+      <p
+        className="footer-right"
+        onClick={(e) => (window.location.href = "#Contact")}
+      >
+        contact
+      </p>
     </div>
-  )
+  );
 };
 
 export default Footer;

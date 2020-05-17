@@ -2,8 +2,8 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div className="Main">
-      <p className="main-text">Frontend developer</p>
+    <div className="Main page" id="Main">
+      <p className="main-text">Python && JavaScript</p>
     </div>
   );
 };
