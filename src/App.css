@@ -27,13 +27,6 @@
   margin-left: 0.5rem;
 }
 
-.header-center {
-  font-size: 3rem;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  line-height: 5rem;
-}
-
 .header-right {
   font-size: 2.5rem;
   font-weight: bold;
@@ -47,18 +40,32 @@
   height: 100vh;
 }
 
-.Main {
+#Main {
   top: 0;
   left: 0;
   font-size: 5rem;
   font-weight: 500;
-  line-height: 100vh;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  line-height: 8vh;
+}
+
+.main-content {
+  width: 100vw;
+  height: 92vh;
+  display: table-cell;
+  vertical-align: middle;
+  word-break: normal;
 }
 
 .title {
-  font-size: 3rem;
-  color: rgb(141, 141, 141);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 2em;
+  color: rgb(92, 92, 92);
   line-height: 50vh;
 }
 
@@ -66,6 +73,20 @@
   line-height: 50vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.about-subtitle {
+  font-size: 2rem;
+  color: rgb(92, 92, 92);
+  line-height: 10vh;
+}
+
+.about-content {
+  height: 40vh;
+}
+
+.about-content p {
+  line-height: 5vh;
 }
 
 .Footer {
